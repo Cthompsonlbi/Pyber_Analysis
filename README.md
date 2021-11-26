@@ -29,11 +29,11 @@ To pull data required to perform this analysis we merged two files, city_data an
 
 *Assembling of Series data into a data frame that will be used for data analysis.
 
-![SeriesDataFramepreFormat](Resources/SeriesDataFramepreFormat.PNG)
+![SeriesDataFramepreFormat](Resources/SeriesDataFramepreFormat.png)
 
 *Formating of dataframe data output.
 
-![SeriesDataFramepreFormat](Resources/SeriesDataFramepreFormat.PNG)
+![SeriesDataFramePostFormat](Resources/SeriesDataFramePostFormat.png)
 
 *Resulting table created from dataframe creation
 
