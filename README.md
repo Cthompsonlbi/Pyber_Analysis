@@ -11,7 +11,7 @@ The metric and visualizations pulled from this analysis will be the primary sour
 
 ## Results
 
-Using Pandas and Matplotlib, Omar and I were able to create a summary table and a multiline graph by pulling data from two files provided, city_data.csv and ride_data.csv.  We were able to use these data sets and the cities into three city types, urban, suburban, and rural.  Not only were we able to segregate the data into three city types but, were able to take the data for each city type and provide more granularity around the data by calculating the following:
+Using Pandas and Matplotlib, Omar and I were able to create a summary table and a multiline graph by pulling data from two files provided, city_data.csv and ride_data.csv.  We were able to use these data sets and group the cities into three city types; urban, suburban, and rural.  Not only were we able to segregate the data into three city types but, were able to take the data for each city type and provide more granularity around the data by calculating the following:
 
 * Total number of fares 
 * Total drivers
@@ -46,8 +46,8 @@ To pull data required to perform this analysis we merged two files, city_data an
 Upon running the Analysis between data sets the following can be observed:
 
 * There are 13 and 2.6 times more rides in Urban areas than rides in rural and suburban areas, respectively.
-* However, there are 30 and 4.9 times more drivers in urban areas than rural and suburban drivers, respectively.
-* The data above also shows that the urban driver receives less per ride than rural and suburban drivers.  30% less when compared to rural and 20% less compared to suburban drivers.
+* However, there are 30 and 4.9 times more drivers in urban areas than in rural and suburban drivers, respectively.
+* The data above also shows that the urban driver, on average, receives less fare per ride than rural and suburban drivers.  30% less when compared to rural and 20% less compared to suburban drivers.
 * The average fare per driver is higher for rural drivers as well, $55.49 per driver when compared to $39.50 and $16.57 per suburban and urban drivers, respectively.
 
 
@@ -57,7 +57,7 @@ Upon running the Analysis between data sets the following can be observed:
 
 ![pyber_fare_summary](Resources/pyber_fare_summary.png)
 
-At an initial glance, there are no real surprises when reviewing the line graph above. On an aggregate basis, one would expect the total fares to be higher for the urban and suburban areas than when compared to rural areas.  Relying solely on the line graph above could be quite deceptive. It appears that the urban areas out earn both suburban and rural areas combined. Which would make sense as the sheer demand for PyBer services in urban areas, when compared to rural areas, is much higher.  To get a more accurate depiction of the state of the company, Pyber and its employees, any decisions being made should not rely on the line plot alone.
+At an initial glance, there are no real surprises when reviewing the line graph above. On an aggregate basis, one would expect the total fares to be higher for the urban and suburban areas than when compared to rural areas.  Relying solely on the line graph above could be quite deceptive. It appears that the urban areas out earn both suburban and rural areas combined. Which would make sense as the sheer demand for PyBer services in urban areas, when compared to rural areas, is much higher.  To get a more accurate depiction of the state of PyBer and its employees, any decisions being made should not rely on the line plot alone.
 
 ## Summary
 
