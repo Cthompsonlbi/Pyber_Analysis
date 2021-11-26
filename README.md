@@ -51,7 +51,9 @@ Upon running the Analysis Analysis between data sets the following can be observ
 * The Average fare per driver is higher for Rual drivers as well, $55.49 per driver when compared to $39.50 and $16.57 per Suburband and Urban drivers, respectively.
 
 
-### Analysis of School Summary
+### Analysis of Line Graph Summary
+
+![pyber_fare_summary](Resources/pyber_fare_summary.png)
 
 When eliminating Thomas High School ninth grade math and reading scores, it has a big impact on Thomas High Schools % Overall Passing data point by dropping it to 65.1%.  This is understandable as the scores were removed but the calculations were done on the entire student body.  However, when the analysis was performed only taking into consideration Thomas High Schools 10th, 11th, and 12th grade students scores and the respective student population, the changes observed were minimal when compared to the entire district.  More specific information is provided below:
  
@@ -62,39 +64,6 @@ When eliminating Thomas High School ninth grade math and reading scores, it has 
  * Please see a scaled down school summary below
 
 ![THS_Summary10th12thlGrades](Resources/THS_Summary10th12thlGrades.png)
-![THS_SummaryAllGrades](Resources/THS_SummaryAllGrades.png)
-
-### Overall Summary of Impact of Thomas High School analysis with removal of 9th grade scores
-The overall impact to the District Analysis and School Analysis with the removal of Thomas High School 9th grade from the entire data set is minimal.  With 39,170 students in the district, the removal of the Thomas High School 9th grade population, which is only 461 students, from the data set has minimal impact.  In fact, using standard formatting of extending the accuracy of the output to either zero or one significant digit yielded no change at all.  The formatting had to be extended to two significant digits before yielding any differenece at all.  Below are two screen shots that show comparison of data sets with standard formatting as recommended through the exercise and then with the extension of accuracy to two significant digits.
-
-![FormattedSpending](Resources/FormattedSpending.png)
-
-As you can see above, there is no difference in the formatted data set with the removal of the 9th grade Thomas High School population from the data set. One would have to go to the unformatted data set as seen below to identify slight differences in results when comparison the reduced student data set to the full student population data set.
-
-![UnformattedSpending](Resources/UnformattedSpending.png)
-
-The remainder of this report will be analyzing the district performance when broken down by factors such as spending, size of school and type of school.
-
-### Analysis of School Spending
-After dividing the per capita spend into four brackets, one could make the determination that the amount of money spent per student does not necessarily yield better performance when it comes to student scores. In fact, in cases where the per capita spent was less than $584 dollars, the schools performed better in every category than those schools that spent more per student.  On the other end of the spectrum, schools that spent the most on a per capita basis performed worse than those that spent less on each category.  See screen snippet below:
-
-![schoolspend](Resources/schoolspend.PNG)
-
-### Analysis of School Size
-
-When doing an analysis on school size and its impact on test performance, the following can be interpreted:
-* Medium schools with 1000 - 2000 students had the highest overall percentage for passing and percentage passing reading
-* Small schools with less than 1000 students were on par with medium schools for Average Reading Score, percentage passing math, but exceeded medium schools in Average Math Scores.
-* Schools with more than 2000 students trailed the schools with smaller population sizes in every metric listed.
-* Please see image below for reference.
-
-![schoolsize](Resources/schoolsize.PNG)
-
-### Analysis of School Type
-
-This analysis was also separated out by reading and math scores performance when compared to school types. The two types of schools that were analyzed were Charter and District schools.  Looking at the snippet below, one could interpret the results as Charter schools tend to outperform District Schools in each category.  Charter schools performed better than District schools when it came to Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, % Overall Passing.
-
-![schooltype](Resources/schooltype.PNG)
 
 ### Summary
 
