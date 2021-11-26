@@ -35,24 +35,21 @@ To pull data required to perform this analysis we merged two files, city_data an
 
 ![SeriesDataFramePostFormat](Resources/SeriesDataFramePostFormat.png)
 
+
+### Analysis of PyBer Dataframe Summary
+
 *Resulting table created from dataframe creation
 
 ![PyberSummary_df](Resources/PyberSummary_df.png)
 
 
-### Analysis of District Summary
+Upon running the Analysis Analysis between data sets the following can be observed:
 
-Upon running the District Analysis between data sets that include all students' scores and an analysis with scores that did not include math and reading scores for ninth graders at Thomas High School, the following can be observed:
+* There are 13 and 2.6 times more rides in Urban areas than rides in Rural and Suburban areas, respectively.
+* However, there are 30 and 4.9 times more drivers in Urban areas than Rural and Suburban drivers, respectively.
+* The data above also shows that the Urban driver receives less per ride than Rural and Suburban drivers.  30% less when compared to Rural and 20% less compared to Suburban drivers.
+* The Average fare per driver is higher for Rual drivers as well, $55.49 per driver when compared to $39.50 and $16.57 per Suburband and Urban drivers, respectively.
 
-* The Average Math Score dropped by .1% for the district when Thomas High School ninth graders scores were not calculated.
-* The % Passing Math dropped by .2% for the district when Thomas High School ninth graders scores were not calculated.
-* The % Passing Reading dropped by .1% for the district when Thomas High School ninth graders scores were not calculated.
-* The % Overall Passing dropped by .3% for the district when Thomas High School ninth graders scores were not calculated.
-* Special Note: To be consistent with formatting, the original full data output was re-formatted to include to the tenth decimal place.
-* Please see images below for full District Analysis between full data set and data set where Thomas High School scores were not calculated.
- 
-![DistrictSumAllSchools](Resources/DistrictSumAllSchools.png)
-![DistrictSumNaN9thTHS](Resources/DistrictSumNaN9thTHS.png)
 
 ### Analysis of School Summary
 
