@@ -25,7 +25,7 @@ To pull data required to perform this analysis we merged two files, city_data an
 
 *Creation of multiple Series code to be assembled inside of a data frame.
 
-![SeriesDataforDataFrame](Resources/SeriesDataforDataFrame.PNG)
+![SeriesDataforDataFrame](Resources/SeriesDataforDataFrame.png)
 
 *Assembling of Series data into a data frame that will be used for data analysis.
 
